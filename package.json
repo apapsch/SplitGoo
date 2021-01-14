@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-ts-hello-world",
+  "name": "split-goo",
   "version": "1.0.0",
-  "description": "Typescript Starter with the bare essentials needed for a Gatsby site",
+  "description": "Split language view with a certain search engine",
   "scripts": {
     "build": "rimraf public && npm run format && npm run lint && npm run type-check && gatsby build",
     "check-format": "prettier --list-different \"src/**/*.{ts,tsx,css,html,json,md}\" ",
@@ -24,8 +24,11 @@
     "gatsby-plugin-sass": "2.1.14",
     "gatsby-plugin-typescript": "2.1.7",
     "node-sass": "4.12.0",
+    "normalize.css": "8.0.1",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "react-iframe": "1.8.0",
+    "typeface-hk-grotesk": "1.0.0"
   },
   "devDependencies": {
     "@types/node": "12.7.4",
